@@ -8,7 +8,7 @@ permalink: /photos/japan/index.html
 
 {% assign photos = (site.photos | where: "trip","Japan") %}
 {% for photo in photos %}
-<div><img src="{{ photo.src }}" width=100px></div>
+    <div><img src="{{ photo.src }}" height=200px></div>
 {% endfor %}{% assign photos = (site.photos | where: "trip","Japan") %}
 
 
@@ -16,5 +16,5 @@ permalink: /photos/japan/index.html
 
 {% assign photos = (site.photos | where: "trip","America") %}
 {% for photo in photos %}
-   <div><img src="{{ photo.src }}" width=100px></div>
+    <div><img src="{{ photo.src }}" height=200px></div>
 {% endfor %}
