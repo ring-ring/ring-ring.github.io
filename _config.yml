@@ -5,6 +5,11 @@ highlighter:  pygments
 # Permalinks
 permalink:    /blog/:title
 
+# Collections
+collections:
+  - photos
+
+
 # Setup
 title:        Hugo
 tagline:      'blog'
