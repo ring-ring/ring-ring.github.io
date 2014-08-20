@@ -49,6 +49,9 @@ menu:
   - title:  Home
     url:    /
 
+  - title:  Photos
+    url:    /photos/japan
+
   - title:  About
     url:    /about
 
